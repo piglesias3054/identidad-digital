@@ -32,6 +32,25 @@
  
 }
 
+.buttons2 img{
+  position: absolute;
+  top: 40%;
+  right: 82%;
+  z-index: -3;
+  height: 9rem;
+ 
+}
+
+
+.buttons img{
+  position: absolute;
+  top: 80%;
+  left: 80%;
+  z-index: -3;
+  height: 5rem;
+ 
+}
+
 /* Hide the images by default */
 .mySlides1 {
   display: none;
@@ -112,7 +131,7 @@
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: #ffffff;
 }
 
 /* Fading animation */
